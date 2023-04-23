@@ -40,3 +40,48 @@ videoBtn.forEach(btn => {
         document.querySelector('#video-slider').src = src;
     });
 });
+
+var swiper  = new Swiper(".review-slider",{
+    spaceBetween:20,
+    loop:true, 
+    autoplay:{
+        delay: 2500,
+        disableOnInteraction: false,
+    }, 
+    breakpoints :{
+        640: {
+            slidesPerview: 1,
+        },
+        768:{
+            slidesPerview: 2,
+        },
+        1024: {
+            slidesPerview: 3,
+        },
+    }, 
+});
+
+
+var swiper  = new Swiper(".brand-slider",{
+    spaceBetween:-850,
+    loop:true, 
+    autoplay:{
+        delay: 2500,
+        disableOnInteraction: false,
+    }, 
+    breakpoints :{
+
+        150: {
+            slidesPerview: 2,
+        },
+        250: {
+            slidesPerview: 3,
+        },
+        350:{
+            slidesPerview: 4,
+        },
+        450: {
+            slidesPerview: 5,
+        },
+    }, 
+});
