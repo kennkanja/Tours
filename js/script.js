@@ -66,7 +66,7 @@ var swiper  = new Swiper(".brand-slider",{
     spaceBetween:-850,
     loop:true, 
     autoplay:{
-        delay: 2500,
+        delay: 1800,
         disableOnInteraction: false,
     }, 
     breakpoints :{
