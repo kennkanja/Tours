@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root{
-    --orange:#ffa500;
+    --orange:#d75225;
 }
 *{
     font-family: 'Nunito', sans-serif;
@@ -353,6 +353,13 @@ header .search-bar-container label:hover{
     padding: 1rem;
     text-align: center;
 }
+
+.services .box-container .box:hover{
+    background: rgb(137, 255, .3);
+    color: #eee;
+    
+}
+
 .services .box-container .box i{
     padding: 1rem;
     font-size: 5rem;
