@@ -8,7 +8,16 @@ body{
 }
 .wrapper1{
     width: 800px;
-    height: 100%;
+    
+    
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 60px;
+    justify-content: center;
+
+}
+.wrapper3{
+    width: 1400px;
     
     margin-left: 20px;
     text-align: left;
