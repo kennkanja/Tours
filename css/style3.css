@@ -45,11 +45,17 @@ html{
     height: 3.5px;
  }
  header .logo{
-    font-size: 1.3rem;
-    font-weight: bolder;
-    color: #fff;
-    text-transform: uppercase;
- }
+    position: fixed;
+    height: auto;
+    left: 80px;
+    width: 60px;    
+}
+
+header .navbar{
+    text-align: center;
+    margin-left: 70px;
+}
+ 
  header .logo span{
     color: var(--orange);
  }
