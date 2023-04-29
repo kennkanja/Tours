@@ -71,7 +71,7 @@ header .logo{
     position: fixed;
     height: auto;
     left: 80px;
-    width: 60px;    
+    width: 80px;    
 }
 header .logo span{
     color: var(--orange);
@@ -227,13 +227,13 @@ header .search-bar-container label:hover{
 }
 .home .content h3{
     font-size: 4.5rem;
-    color: #fff;
+    color: var(--orange);
     text-transform: uppercase;
     text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
 }
 .home .content p{
     font-size: 2.5rem;
-    color: #fff;
+    color: var(--orange);
     padding: .5rem 0;
 }
 
@@ -531,13 +531,15 @@ header .search-bar-container label:hover{
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #fff;
-    border-top: .1rem  solid rgba(255, 255, 255, .2);
+    border-top: .1rem  solid rgba(131, 42, 42, 0.2);
 }
 .footer .credit span{
     color: var(--orange);
+    text-transform: lowercase;
+    font-size: 1.5rem;
 }
 
 /* media quaries */
