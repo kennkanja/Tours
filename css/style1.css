@@ -9,7 +9,7 @@ body{
     margin-top: 100px;
 }
 :root{
-    --orange:#d75225;
+    --orange:#e00202;
 }
 .banner{
     height: 100vh;
@@ -43,8 +43,8 @@ body{
     border-radius: 20px;
 }
 .btn:hover{
-    margin: #d75225;
-    color: #d75225;
+    margin:  #e00202;
+    color:  #e00202;
     background: transparent;
 }
 
@@ -65,7 +65,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #d75225;
+    background-color: #e00202;
     overflow-x: hidden;
     padding-top: 20px;
 }
