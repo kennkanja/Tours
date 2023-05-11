@@ -666,7 +666,7 @@ header .search-bar-container label:hover{
     margin-bottom: 8px;
 }
 .gender label{
-    color: #707070;
+    color: var(--brown)
 }
 .form :where(.gender-option, .gender){
     display: flex;
@@ -740,7 +740,7 @@ header .search-bar-container label:hover{
         position: absolute;
         top: 100%;right: 0;
         left: 0;
-        background: #333;
+        background: #873e23;
         border-top: .1rem solid rgba(255, 255, 2555, .2);
         padding: 1rem 2rem;
         clip-path: polygon(0 0, 100% 0,100% 0, 0 0);
@@ -753,8 +753,43 @@ header .search-bar-container label:hover{
         border-radius: .5rem;
         padding: 1.5rem;
         margin: 1.5rem 0;
-        background: #222;
+        background: var(--brown);
 
+    }
+    .side-navbar{
+        display: flex;
+        height: auto;
+        width: 500px;
+        padding: 4px;
+        position: sticky;
+        flex-wrap: wrap;
+        
+    }
+    .side-navbar a{
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .wrapper{
+        padding-left: 5px;
+        display: block;
+        text-align:left;
+        width: 500px;
+        padding: 15px;
+        font-size: 1.3rem;
+    }
+    .wrapper div{
+        margin: 10px;
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+    .container{
+        margin-left: 25px;
+        margin-right: 10px;
+        padding-left: 20px;
+        height: 70%;
     }
 }
 @media (max-width:450px){
@@ -767,6 +802,25 @@ header .search-bar-container label:hover{
     .contact .row form .inputBox input{
         width: 100%;
     }
+    .wrapper{
+        padding-left: 5px;
+        display: block;
+        text-align:left;
+        width: 400px;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+    .wrapper div{
+        margin: 5px;
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+    .container{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+   
+    
     
  
 }
