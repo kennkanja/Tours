@@ -48,7 +48,12 @@
 .contact-area{
     padding: 0 10px;
 }
-
+.contact-area a{
+    text-decoration: underline;
+}
+table a{
+    text-decoration: underline;
+}
 .banner{
     min-height: 80vh;
     width: 100%;
@@ -772,7 +777,7 @@ header .search-bar-container label:hover{
         text-transform: uppercase;
         color: #fff;
     }
-    .wrapper{
+    .wrapper, .wrapper1, .wrapper3{
         padding-left: 5px;
         display: block;
         text-align:left;
