@@ -4,13 +4,14 @@ body{
     font-family: Poppins;
 }
 .wrapper{
-    width: 1100px;
+    width: 800px;
     margin: auto;
     margin-top: 100px;
     display: flex;
 }
 :root{
     --orange:#e00202;
+    --brown:#461e16;
 }
 .banner{
     height: 100vh;
@@ -35,7 +36,7 @@ body{
     display: inline-block;
     text-decoration: none;
     margin-top: 1rem;
-    background: var(--orange);
+    background: var(--brown);
     color: #fff;
     padding: .8rem 3rem;
     border: .2rem solid var(--orange);
@@ -44,8 +45,8 @@ body{
     border-radius: 20px;
 }
 .btn:hover{
-    margin:  #e00202;
-    color:  #e00202;
+    margin:  var(--brown);
+    color:  var(--brown);
     background: transparent;
 }
 
@@ -60,15 +61,16 @@ body{
 }
 .side-navbar{
     margin-top: 60px;
-    
+    height: auto;
     width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #e00202;
+    background-color: var(--brown);
     overflow-x: hidden;
     padding-top: 20px;
+    border-radius: 10px;
 }
 .side-navbar a{
     padding: 15px 10px 10px 10px;
@@ -79,11 +81,11 @@ body{
     color: #fff;
 }
 .side-navbar a:hover{
-    color: #d75225;
+    color: var(--brown);
     background: #fff;
 }
 .contact-area{
-    
+    text-align: right;
     padding: 0 10px;
 }
 #about{
@@ -99,5 +101,33 @@ body{
     background: dodgerblue;
 }
 
-
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .wrapper{
+        width: 430px;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        display: block;
+    }
+    .wrapper1{
+        width: 430px;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        display: block;
+    }
+    .wrapper2{
+        width: 430px;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        display: block;
+    }
+    .side-navbar{
+        height: 40px;
+    }
+}
 
