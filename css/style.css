@@ -460,8 +460,8 @@ header .search-bar-container label:hover{
     color: var(--brown);
 }
 .services .box-container .box p{
-    font-size: 1.5rem;
-    color: var(--brown);
+    font-size: 1.3rem;
+    color: var(--black);
     padding: 1rem 0;
 }
 .gallery .box-container{
